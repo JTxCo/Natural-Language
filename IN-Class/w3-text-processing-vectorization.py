@@ -36,7 +36,7 @@ How many languages does the snowball stemmer support? 15
 
 
 
-stop_words = set(stopwords.words('english'))x
+stop_words = set(stopwords.words('english'))
 
 stemer = SnowballStemmer("english")
 stemmed_docs = []
